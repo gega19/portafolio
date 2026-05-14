@@ -6,6 +6,9 @@ import {
   Sparkles,
   Scissors,
   CreditCard,
+  Stethoscope,
+  Trophy,
+  MessagesSquare,
 } from "lucide-react";
 
 const projects = [
@@ -67,6 +70,42 @@ const projects = [
       "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80&auto=format&fit=crop",
     category: "Punto de venta",
     icon: CreditCard,
+    color: "gray",
+  },
+  {
+    id: 6,
+    title: "Doctor Heal Online",
+    description:
+      "Plataforma web para atención y gestión en salud: acceso seguro para profesionales y pacientes desde el inicio de sesión.",
+    url: "https://app.doctorhealonline.com/auth/signin",
+    image:
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80&auto=format&fit=crop",
+    category: "Salud digital",
+    icon: Stethoscope,
+    color: "gray",
+  },
+  {
+    id: 7,
+    title: "Sportyeah",
+    description:
+      "App móvil (beta) para digitalizar el deporte: competiciones multideporte, ticketing, resultados en vivo, wallet y comunidad. Conecta organizadores, deportistas y espacios en una sola experiencia.",
+    url: "https://play.google.com/store/apps/details?id=com.sportyeah.sportyeah_mobile_app&hl=es_VE",
+    image:
+      "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&q=80&auto=format&fit=crop",
+    category: "Deportes",
+    icon: Trophy,
+    color: "gray",
+  },
+  {
+    id: 8,
+    title: "SISCOM",
+    description:
+      "App para equipos: chats grupales, videoconferencias y transmisiones en vivo para coordinar, alinear objetivos y tomar decisiones con comunicación clara y segura.",
+    url: "https://play.google.com/store/apps/details?id=com.siscom.app&hl=es",
+    image:
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80&auto=format&fit=crop",
+    category: "Comunicación",
+    icon: MessagesSquare,
     color: "gray",
   },
 ];
